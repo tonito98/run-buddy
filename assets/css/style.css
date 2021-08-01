@@ -128,3 +128,32 @@ section {
  }
  /* HERO STYLES END */
  
+ .intro {
+     text-align: center;
+ }
+
+ .intro h2 {
+      font-size: 55px;
+      color: #024e76;
+      margin-bottom: 35px;
+      padding: 0 100px 20px 100px;
+      border-bottom: 3px solid;
+      border-color: #fce138;
+ }
+
+ .intro h2 {
+     /* fix the bottom yellow border to be the length of "What We Do" */
+     display: inline-block;
+ }
+
+ .intro p {
+     line-height: 1.7;
+     color: #39a6b2;
+     width: 80%;
+     font-size: 20px;
+ }
+
+ .intro p {
+     /* fix non indented paragaph below "What We Do" by setting a top and bottom margin of zero and a left and right margin of auto When the browser is asked to do this on both sides of an element, it will do its best to make them even, thus pushing the element into the center. */
+     margin: 0 auto;
+ }
