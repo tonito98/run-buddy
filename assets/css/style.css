@@ -132,14 +132,7 @@ section {
      text-align: center;
  }
 
- .intro h2 {
-      font-size: 55px;
-      color: #024e76;
-      margin-bottom: 35px;
-      padding: 0 100px 20px 100px;
-      border-bottom: 3px solid;
-      border-color: #fce138;
- }
+ 
 
  .intro h2 {
      /* fix the bottom yellow border to be the length of "What We Do" */
@@ -157,3 +150,48 @@ section {
      /* fix non indented paragaph below "What We Do" by setting a top and bottom margin of zero and a left and right margin of auto When the browser is asked to do this on both sides of an element, it will do its best to make them even, thus pushing the element into the center. */
      margin: 0 auto;
  }
+
+ .steps {
+     text-align: center;
+     background: #fce138;
+ }
+
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+
+.steps div {
+    margin-bottom: 80px;
+}
+
+.steps img {
+    width: 15%;
+    margin: 10px 0;
+}
+
+.steps h3 {
+    color: #024e76;
+    font-size: 46px;
+    margin-top: 10px;
+}
+
+.steps p {
+    color: #39a6b2;
+    font-size : 23px;
+}
+
+
+
