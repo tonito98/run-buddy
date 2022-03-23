@@ -13,32 +13,39 @@ body {
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-header h1{
+header h1{ 
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
     margin: 0;
 }
 
-header a {
+header a { 
     text-decoration: none;
     color: #fce138
 }
 
 header nav {
-    float: right;
+
     margin: 7px 0;
 }
 
-header nav ul li {
-    display: inline;
+header nav ul  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
 }
 
 header h1 {
@@ -46,24 +53,26 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
 }
 
 footer {
-    background: #fce138;
-    width: 100%;
+    background: #fce138;  
+    width: 100%; 
     padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 footer h2 {
-    display:inline;
+    
     color: #024e76;
     font-size: 30px;
     margin: 0;
 }
 
 footer div {
-    float: right;
+    
     line-height: 1.5;
     text-align: right;
 }
@@ -78,22 +87,21 @@ section {
  /* Hero Style Start*/
  .hero {
      background-image: url("../images/hero-bg.jpg");
-     height: 600px;
      background-size: cover;
      background-position: center;
-     position: relative;
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
  }
  /* Hero Style End*/
 
  .hero-form {
      background-color: #fce138;
      padding: 20px;
-     width: 500px;
      color: #024e76;
      border: solid 3px #024e76;
-     position:absolute;
-     bottom: 120px;
-     right: 140px;
+     width: 40%;
+     margin: 3.5%;
  }
  
  .hero-form h3{
@@ -126,11 +134,24 @@ section {
      padding: 10px 20px;
      font-size: 16px;
  }
+
+ .hero-cta {
+     width: 35%;
+     text-align: right;
+     margin: 3.5%;
+     color: #fff;
+     font-size: 18px;
+     line-height: 1.3;
+ }
+
+ .hero-cta h2 {
+     font-style: italic;
+     font-size: 55px;
+     color: #fce138;
+ }
  /* HERO STYLES END */
  
- .intro {
-     text-align: center;
- }
+
 
  
 
@@ -144,6 +165,7 @@ section {
      color: #39a6b2;
      width: 80%;
      font-size: 20px;
+     text-align: center;
  }
 
  .intro p {
@@ -152,16 +174,12 @@ section {
  }
 
  .steps {
-     text-align: center;
      background: #fce138;
  }
 
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
 }
 
@@ -194,7 +212,6 @@ section {
 }
 
 .trainers {
-    text-align: center;
 }
 
 .trainer {
@@ -224,6 +241,10 @@ section {
     text-align: right;
 }
 
+.flex-row { 
+    display: flex;
+}
+
 .trainer-bio h3 {
     font-size: 32px;
     margin-bottom: 8px;
@@ -247,10 +268,13 @@ section {
     border-bottom: 3px solid;
     margin-bottom: 35px;
     color: #fce138;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 
 }
 .contact {
-    text-align: center;
     background-color: #024e76;
 }
 
